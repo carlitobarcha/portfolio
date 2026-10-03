@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+    <rect width="600" height="380" fill="#151716" rx="8"/>
+    <rect x="1" y="1" width="598" height="378" stroke="#252528" rx="7"/>
+    <text x="40" y="50" fill="#DFBA73" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Badia Electric Mobility</text>
+    <text x="40" y="75" fill="#8E8E93" font-family="monospace" font-size="11">DIRECT-TO-CONSUMER E-BIKE SHOWCASE & BATTERY TELEMETRY</text>
+    <circle cx="160" cy="220" r="55" stroke="#C9A86A" stroke-width="4"/>
+    <circle cx="440" cy="220" r="55" stroke="#C9A86A" stroke-width="4"/>
+    <path d="M160 220 L270 220 L330 160 L240 160 Z" stroke="#DFBA73" stroke-width="4" fill="none"/>
+    <path d="M270 220 L330 160 L440 220" stroke="#DFBA73" stroke-width="4"/>
+    <line x1="330" y1="160" x2="350" y2="120" stroke="#DFBA73" stroke-width="4"/>
+    <text x="300" y="320" text-anchor="middle" fill="#8E8E93" font-family="monospace" font-size="11">750W BAFANG MOTOR · 48V 17.5AH LG CELLS · 65 MILE RANGE</text>
+  </svg>

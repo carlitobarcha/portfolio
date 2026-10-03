@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="none">
+    <rect width="300" height="300" fill="#121213"/>
+    <circle cx="150" cy="150" r="135" stroke="#C9A86A" stroke-width="2"/>
+    <circle cx="150" cy="150" r="125" stroke="#C9A86A" stroke-opacity="0.3" stroke-width="1"/>
+    <!-- Central stylized Rubab silhouette -->
+    <g transform="translate(150, 150) scale(0.65) translate(-150, -150)">
+      <path d="M142 30 H158 V65 H142 Z" fill="#C9A86A"/>
+      <circle cx="132" cy="45" r="4" fill="#DFBA73"/>
+      <circle cx="168" cy="45" r="4" fill="#DFBA73"/>
+      <circle cx="132" cy="58" r="4" fill="#DFBA73"/>
+      <circle cx="168" cy="58" r="4" fill="#DFBA73"/>
+      <path d="M144 65 L138 160 H162 L156 65 Z" fill="#DFBA73"/>
+      <path d="M138 160 C115 170 100 195 110 215 C118 230 135 235 135 240 C135 250 105 265 115 290 C125 315 175 315 185 290 C195 265 165 250 165 240 C165 235 182 230 190 215 C200 195 185 170 162 160 Z" fill="#C9A86A"/>
+      <line x1="148" y1="35" x2="148" y2="280" stroke="#121213" stroke-width="1.5"/>
+      <line x1="150" y1="35" x2="150" y2="280" stroke="#121213" stroke-width="1.5"/>
+      <line x1="152" y1="35" x2="152" y2="280" stroke="#121213" stroke-width="1.5"/>
+    </g>
+    <text x="150" y="270" text-anchor="middle" fill="#DFBA73" font-family="Georgia, serif" font-weight="700" font-size="14" letter-spacing="4">@RUBABJON</text>
+  </svg>

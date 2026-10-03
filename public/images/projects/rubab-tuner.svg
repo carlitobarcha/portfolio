@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+    <rect width="600" height="380" fill="#141415" rx="8"/>
+    <rect x="1" y="1" width="598" height="378" stroke="#252528" rx="7"/>
+    <!-- Circular Pitch Dial -->
+    <circle cx="300" cy="180" r="110" stroke="#252528" stroke-width="8"/>
+    <path d="M 222 258 A 110 110 0 1 1 378 258" stroke="#C9A86A" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="300" cy="180" r="85" fill="#1A1A1E" stroke="#333338"/>
+    <text x="300" y="170" text-anchor="middle" fill="#DFBA73" font-family="Georgia, serif" font-size="44" font-weight="700">C4</text>
+    <text x="300" y="200" text-anchor="middle" fill="#8E8E93" font-family="monospace" font-size="13">261.63 Hz</text>
+    <text x="300" y="222" text-anchor="middle" fill="#34D399" font-family="monospace" font-size="11" font-weight="bold">IN TUNE (±0.2 ct)</text>
+
+    <!-- Spectrum bars at bottom -->
+    <g transform="translate(60, 310)">
+      <rect x="0" y="15" width="8" height="25" rx="2" fill="#C9A86A" fill-opacity="0.3"/>
+      <rect x="15" y="5" width="8" height="35" rx="2" fill="#C9A86A" fill-opacity="0.5"/>
+      <rect x="30" y="18" width="8" height="22" rx="2" fill="#C9A86A" fill-opacity="0.3"/>
+      <rect x="45" y="0" width="8" height="40" rx="2" fill="#DFBA73"/>
+      <rect x="60" y="10" width="8" height="30" rx="2" fill="#C9A86A" fill-opacity="0.6"/>
+      <rect x="75" y="20" width="8" height="20" rx="2" fill="#C9A86A" fill-opacity="0.4"/>
+      <rect x="90" y="14" width="8" height="26" rx="2" fill="#C9A86A" fill-opacity="0.4"/>
+      <rect x="105" y="22" width="8" height="18" rx="2" fill="#C9A86A" fill-opacity="0.2"/>
+      <text x="240" y="30" fill="#8E8E93" font-family="monospace" font-size="11">2048-BIN FFT SPECTRUM · YIN AUTOCORRELATION</text>
+    </g>
+    <text x="40" y="45" fill="#D2D2D4" font-family="system-ui, sans-serif" font-weight="600" font-size="13">Acoustic Rubab Real-Time Tuner</text>
+  </svg>

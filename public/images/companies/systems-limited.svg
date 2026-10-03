@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+    <rect width="200" height="60" rx="8" fill="#181819"/>
+    <rect x="1" y="1" width="198" height="58" rx="7" stroke="#252528"/>
+    <path d="M24 38L34 22H42L32 38H24Z" fill="#C9A86A"/>
+    <path d="M35 38L45 22H53L43 38H35Z" fill="#DFBA73"/>
+    <text x="64" y="32" fill="#F4F4F5" font-family="system-ui, sans-serif" font-weight="700" font-size="14" letter-spacing="1">SYSTEMS</text>
+    <text x="64" y="44" fill="#C9A86A" font-family="system-ui, sans-serif" font-weight="500" font-size="9" letter-spacing="2">LIMITED</text>
+  </svg>

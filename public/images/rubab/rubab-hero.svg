@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+    <rect width="400" height="400" fill="#151412"/>
+    <circle cx="200" cy="200" r="170" stroke="#C9A86A" stroke-opacity="0.15" stroke-width="1"/>
+    <circle cx="200" cy="200" r="140" stroke="#C9A86A" stroke-opacity="0.25" stroke-dasharray="4 8" stroke-width="1"/>
+    <!-- Rubab Silhouette -->
+    <g transform="translate(200, 200) scale(0.65) translate(-200, -200)">
+      <!-- Peghead -->
+      <path d="M190 40 H210 V80 H190 Z" fill="#C9A86A"/>
+      <circle cx="178" cy="55" r="5" fill="#DFBA73"/>
+      <circle cx="222" cy="55" r="5" fill="#DFBA73"/>
+      <circle cx="178" cy="70" r="5" fill="#DFBA73"/>
+      <circle cx="222" cy="70" r="5" fill="#DFBA73"/>
+      <circle cx="178" cy="85" r="5" fill="#DFBA73"/>
+      <circle cx="222" cy="85" r="5" fill="#DFBA73"/>
+      <!-- Neck -->
+      <path d="M192 80 L186 210 H214 L208 80 Z" fill="#C9A86A"/>
+      <!-- Sympathetic pegs on side -->
+      <circle cx="178" cy="120" r="3.5" fill="#DFBA73"/>
+      <circle cx="176" cy="135" r="3.5" fill="#DFBA73"/>
+      <circle cx="174" cy="150" r="3.5" fill="#DFBA73"/>
+      <circle cx="172" cy="165" r="3.5" fill="#DFBA73"/>
+      <circle cx="170" cy="180" r="3.5" fill="#DFBA73"/>
+      <circle cx="168" cy="195" r="3.5" fill="#DFBA73"/>
+      <!-- Body / Waist & Chamber -->
+      <path d="M186 210 C160 220 145 250 155 275 C165 295 185 298 185 305 C185 315 150 330 160 365 C170 395 230 395 240 365 C250 330 215 315 215 305 C215 298 235 295 245 275 C255 250 240 220 214 210 Z" fill="#C9A86A" fill-opacity="0.95"/>
+      <!-- Soundboard skin outline -->
+      <path d="M172 320 C165 340 175 375 200 375 C225 375 235 340 228 320 C220 310 180 310 172 320 Z" fill="#181819" stroke="#DFBA73" stroke-width="1.5"/>
+      <!-- Strings -->
+      <line x1="197" y1="50" x2="197" y2="365" stroke="#DFBA73" stroke-width="1.5"/>
+      <line x1="200" y1="50" x2="200" y2="365" stroke="#DFBA73" stroke-width="1.5"/>
+      <line x1="203" y1="50" x2="203" y2="365" stroke="#DFBA73" stroke-width="1.5"/>
+    </g>
+    <text x="200" y="360" text-anchor="middle" fill="#C9A86A" font-family="Georgia, serif" font-style="italic" font-size="12" letter-spacing="2">THE LION OF INSTRUMENTS</text>
+  </svg>

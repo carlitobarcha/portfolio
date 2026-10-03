@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+    <rect width="600" height="380" fill="#151517" rx="8"/>
+    <rect x="1" y="1" width="598" height="378" stroke="#252528" rx="7"/>
+    <text x="40" y="50" fill="#DFBA73" font-family="Georgia, serif" font-size="16" font-weight="bold">System Architecture Matrix</text>
+    <text x="40" y="72" fill="#8E8E93" font-family="monospace" font-size="11">CLEAN ARCHITECTURE · DOMAIN DRIVEN DESIGN · ABP.IO</text>
+
+    <rect x="40" y="100" width="160" height="220" rx="6" fill="#1B1B1E" stroke="#28282C"/>
+    <text x="60" y="130" fill="#DFBA73" font-family="sans-serif" font-size="12" font-weight="bold">Domain Core</text>
+    <text x="60" y="160" fill="#8E8E93" font-family="monospace" font-size="10">Entities</text>
+    <text x="60" y="185" fill="#8E8E93" font-family="monospace" font-size="10">Value Objects</text>
+    <text x="60" y="210" fill="#8E8E93" font-family="monospace" font-size="10">Domain Events</text>
+    <text x="60" y="235" fill="#8E8E93" font-family="monospace" font-size="10">Repository Spec</text>
+
+    <rect x="220" y="100" width="160" height="220" rx="6" fill="#1B1B1E" stroke="#28282C"/>
+    <text x="240" y="130" fill="#DFBA73" font-family="sans-serif" font-size="12" font-weight="bold">Application</text>
+    <text x="240" y="160" fill="#8E8E93" font-family="monospace" font-size="10">App Services</text>
+    <text x="240" y="185" fill="#8E8E93" font-family="monospace" font-size="10">DTO Mapping</text>
+    <text x="240" y="210" fill="#8E8E93" font-family="monospace" font-size="10">CQRS Handlers</text>
+    <text x="240" y="235" fill="#8E8E93" font-family="monospace" font-size="10">Auth Guards</text>
+
+    <rect x="400" y="100" width="160" height="220" rx="6" fill="#1B1B1E" stroke="#28282C"/>
+    <text x="420" y="130" fill="#DFBA73" font-family="sans-serif" font-size="12" font-weight="bold">Infrastructure</text>
+    <text x="420" y="160" fill="#8E8E93" font-family="monospace" font-size="10">EF Core / MSSQL</text>
+    <text x="420" y="185" fill="#8E8E93" font-family="monospace" font-size="10">DeepSeek AI Client</text>
+    <text x="420" y="210" fill="#8E8E93" font-family="monospace" font-size="10">RabbitMQ Bus</text>
+    <text x="420" y="235" fill="#8E8E93" font-family="monospace" font-size="10">Redis Cache</text>
+  </svg>

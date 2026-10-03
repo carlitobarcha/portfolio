@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+    <rect width="200" height="60" rx="8" fill="#181819"/>
+    <rect x="1" y="1" width="198" height="58" rx="7" stroke="#252528"/>
+    <path d="M22 24C22 34 32 38 40 38C48 38 58 34 58 24" stroke="#C9A86A" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="40" cy="22" r="4" fill="#DFBA73"/>
+    <text x="68" y="32" fill="#F4F4F5" font-family="system-ui, sans-serif" font-weight="700" font-size="13" letter-spacing="0.5">uCONNECT</text>
+    <text x="68" y="44" fill="#8E8E93" font-family="system-ui, sans-serif" font-weight="400" font-size="8.5" letter-spacing="1">TECHNOLOGIES</text>
+  </svg>

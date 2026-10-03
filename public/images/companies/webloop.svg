@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+    <rect width="200" height="60" rx="8" fill="#181819"/>
+    <rect x="1" y="1" width="198" height="58" rx="7" stroke="#252528"/>
+    <circle cx="34" cy="30" r="14" stroke="#C9A86A" stroke-width="3" stroke-dasharray="60 20"/>
+    <circle cx="34" cy="30" r="6" fill="#DFBA73"/>
+    <text x="58" y="33" fill="#F4F4F5" font-family="system-ui, sans-serif" font-weight="700" font-size="14" letter-spacing="1">WEB LOOP</text>
+    <text x="58" y="45" fill="#8E8E93" font-family="system-ui, sans-serif" font-weight="400" font-size="9" letter-spacing="1.5">PVT. LTD.</text>
+  </svg>
