@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://khalidabbas.dev"),
+  metadataBase: new URL("https://www.khalidbarcha.com"),
   title: "Khalid Abbas Barcha — Codes & Chords | Work, No Word",
   description:
     "Portfolio of Khalid Abbas Barcha — Full-stack developer (.NET, ABP.io, MERN), AI systems architect, Rubabist, and mountaineer from Islamabad & Gilgit, Pakistan. Work, No Word.",
@@ -38,10 +38,24 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Khalid Abbas Barcha", url: "https://github.com/carlitobarcha" }],
   creator: "Khalid Abbas Barcha",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/icon-96.png", sizes: "96x96", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://khalidabbas.dev",
+    url: "https://www.khalidbarcha.com",
     siteName: "Khalid Abbas Barcha Portfolio",
     title: "Khalid Abbas Barcha — Codes & Chords | Work, No Word",
     description:
