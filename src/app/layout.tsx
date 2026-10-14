@@ -83,6 +83,38 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Khalid Abbas Barcha",
+  url: "https://www.khalidbarcha.com",
+  image: "https://www.khalidbarcha.com/images/profile.png",
+  jobTitle: "Software Engineer",
+  alumniOf: {
+    "@type": "EducationalOrganization",
+    name: "Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST)",
+  },
+  sameAs: [
+    "https://github.com/carlitobarcha",
+    "https://www.youtube.com/@khalid.barcha",
+  ],
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Khalid Abbas Barcha",
+  url: "https://www.khalidbarcha.com",
+  publisher: {
+    "@type": "Person",
+    name: "Khalid Abbas Barcha",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.khalidbarcha.com/icon-512.png",
+    },
+  },
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -93,6 +125,16 @@ export default function RootLayout({
       lang="en"
       className={`${cormorantGaramond.variable} ${inter.variable} scroll-smooth dark`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+      </head>
       <body className="min-h-screen bg-[#181819] text-[#D2D2D4] selection:bg-[#C9A86A]/20 selection:text-[#DFBA73] antialiased">
         {children}
         <Analytics />
